@@ -17,11 +17,18 @@ fn main() {
 
     for _ in 0..args.count {
         println!(
-            "Hello {}!",
+
+
+            "Hello {}!"
+
+            ,
+
+
+
+
             args.name
 
-
-
+        
 
 
             )
