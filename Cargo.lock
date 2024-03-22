@@ -51,12 +51,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "cargo-husky"
-version = "1.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7b02b629252fe8ef6460461409564e2c21d0c8e77e0944f3d189ff06c4e932ad"
-
-[[package]]
 name = "clap"
 version = "4.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -106,7 +100,6 @@ checksum = "acbf1af155f9b9ef647e42cdc158db4b64a1b61f743629225fde6f3e0be2a7c7"
 name = "hammer"
 version = "0.1.0"
 dependencies = [
- "cargo-husky",
  "clap",
 ]
 
