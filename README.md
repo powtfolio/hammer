@@ -13,7 +13,7 @@ Will be supporting:
 
 `new` - Instantiate a new project.
 
-`config` - Change the configuration of the metadata standard
+`config` - Change the configuration of the metadata standard with a TUI
 
 `smash` - Flatten the shit out of your layers from '/layers/ to '/assets'.
 
