@@ -36,7 +36,9 @@ fn handle_events() -> io::Result<bool> {
 
 fn ui(frame: &mut Frame) {
     frame.render_widget(
-        Paragraph::new("Metadata Configuration (press 'q' to quit)".green().bold()),
+        Block::default()
+            .title("Metadata Configuration (press 'q' to quit)".green().bold())
+            .borders(Borders::ALL),
         frame.size(),
     );
 }
